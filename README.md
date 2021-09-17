@@ -71,7 +71,8 @@ public class Main
     System.out.println("x + y =" +sum);
  }
 }
-
+  
+//Print The Number Entered by user
 import java.util.*;
 
 public class MyClass {
@@ -107,6 +108,7 @@ public class main{
  }
 }
 
+ //check whether the number is even or odd 
   import java.util.Scanner;
 
 public class EvenOdd {
