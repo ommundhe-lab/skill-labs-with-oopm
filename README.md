@@ -59,7 +59,73 @@ int main()
   cout<<num<<" is odd"; return 0;
 }
  
+  java lab1
+  //To Add Two Numbers
+public class Main
+{
 
+ public static void main(String[] args)
+ {
+    int x = 14; int y = 19;
+    int sum = x + y ;
+    System.out.println("x + y =" +sum);
+ }
+}
+
+import java.util.*;
+
+public class MyClass {
+
+    public static void main(String args[]) {
+
+      int n1, n2,temp;
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.println("input number 1");
+      n1=sc.nextInt();
+      System.out.println("input number 2");
+      n2=sc.nextInt();
+
+      System.out.println(" n1 + n2=" +(n1+n2));
+    }
+}
+
+//to swap two numbers public class Main
+public class main{
+   public static void main(String[] args){
+    int n1 = 45, n2 = 56;
+    System.out.println("Before swapping"); 
+    System.out.println("First number = " + n1); 
+    System.out.println("Second number = " + n2);
+    n1 = n1 - n2;
+    n2 = n1 + n2; 
+    n1 = n2 - n1;
+    System.out.println("After swapping");
+    System.out.println("First number = " + n1); 
+   System.out.println("Second number = " + n2);
+ }
+}
+
+  import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+}
+
+  
 
  
 
